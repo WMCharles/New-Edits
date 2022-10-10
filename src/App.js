@@ -39,7 +39,7 @@ const App = () => {
             <Route exact path="/" element={<Login  setIsLoggedIn={setIsLoggedIn}/> } />
             <Route  path="Home" element={ <Home blogs={blogs} />} />
             <Route exact path="CreateBlogs" element={<CreateBlogs blogs={blogs} fetcher={fetcher}  />} />
-            <Route path="blogs/:id" element={<BlogDetails  blogs={blogs}   fetcher={fetcher}  />}   />
+            <Route path="blogs/:title" element={<BlogDetails  blogs={blogs}/>}   />
             <Route path="blogs/CreateBlogs/edit/:id" element={<CreateBlogs blogs={blogs} fetcher={fetcher} />}   />
           </Routes>
         </div>
