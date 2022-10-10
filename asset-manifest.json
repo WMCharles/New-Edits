@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/New-Edits/static/css/main.996c1909.css",
+    "main.js": "/New-Edits/static/js/main.a559b856.js",
+    "index.html": "/New-Edits/index.html",
+    "main.996c1909.css.map": "/New-Edits/static/css/main.996c1909.css.map",
+    "main.a559b856.js.map": "/New-Edits/static/js/main.a559b856.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.996c1909.css",
+    "static/js/main.a559b856.js"
+  ]
+}
